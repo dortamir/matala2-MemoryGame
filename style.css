@@ -1,0 +1,33 @@
+#container {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card-container {
+    flex: 0 0 200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/564x/7e/90/36/7e90369e190100c317a5514a6035f2b6.jpg');
+    background-size: auto 100%;
+    border-radius: 15px;
+    border: 3px solid rgb(227, 162, 150);
+}
+
+.card-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.disabled {
+    opacity: 0.95;
+    pointer-events: none;
+}
+
