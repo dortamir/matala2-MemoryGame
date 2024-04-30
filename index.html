@@ -4,19 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-
     <title>Document</title>
-
 </head>
 
-<body>
 
-    <div class="homePageContainer">
-        <form>
-            <input type="text" id="fullName" placeholder="Enter Full Name">
-            <lable>Choose the number of the cards <input type="number" id="cardsNumber" min="1" max="30" step="1"></lable>
-            <button onclick="submitForm()">Start</button>
+<body>
+    <div class="home-page-container">
+        <div class="disney-background-container">
+            <img class="disney-background-img" src="images/disney background1.jpg">
+        </div>
+        <form class="input-user-container">
+            <div class="input-name-container">     
+                <input class="input-name-style" type="text" id="fullName" placeholder="Enter Full Name">
+            </div>
+            <div class="input-cards-number-container">
+                <lable class="label-style-container">Choose the number of pairs of cards you want to play with    <input type="number" id="cardsNumber" min="1" max="30" step="1"></lable>
+            </div>
+            <div class="start-button-container">
+                <button class="start-button-style" onclick="submitForm()">Start</button>
+            </div>
         </form>
     </div>
 
